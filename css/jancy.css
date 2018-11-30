@@ -1,0 +1,30 @@
+/* jasny-bootstrap*/
+
+.jasny-wrapper.navbar {
+  display: block;
+  text-align: center;
+}
+.jasny-wrapper .navbar-brand {
+  display: inline-block;
+  float: none;
+}
+.jasny-wrapper .navbar-toggle {
+  position: absolute;
+  float: left;
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 1px) {
+  .jasny-wrapper .navbar-toggle {
+    display: block !important;
+  }
+}
+
+
+.jasny-wrapper .navmenu-nav.dropdown-menu { position:relative; }
+.jasny-wrapper .dropdown-backdrop { position: static; }
+/* / jasny-bootstrap*/
